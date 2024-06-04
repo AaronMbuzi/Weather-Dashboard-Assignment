@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather History - Weather Dashboard</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="dashboard.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+        </ul>
+    </nav>
+    <br>
+    
+    <div class="container">
+        <h1>Weather History</h1>
+        <table id="historyTable">
+            <thead>
+                <tr>
+                    <th>City</th>
+                    <th>Temperature (°C)</th>
+                    <th>Condition</th>
+                    <th>Wind Speed (km/h)</th>
+                    <th>Pressure (mb)</th>
+                    <th>Humidity (%)</th>
+                    <th>Timestamp</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Weather data will be inserted here dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="/js/history.js"></script>
+</body>
+</html>
