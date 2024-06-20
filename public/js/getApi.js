@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function fetchWeatherData(city) {
-        fetch(`http://api.weatherapi.com/v1/current.json?key=928eae54a20a456d8fc93109242805&q=${city}`)
+        fetch(`http://api.weatherapi.com/v1/current.json?key==${city}`)
             .then(response => response.json())
             .then(data => {
                 displayWeatherData(data);
